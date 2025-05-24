@@ -14,7 +14,7 @@ import logging
 
 HOST = r"127.0.0.1"
 PORT = 9999
-PBS_DIR = r"./"
+PBS_DIR = r"./PBS"
 LOG_DIR = r"."
 RULES_DIR = "./OnlinePresets"
 # Aprox. in seconds
