@@ -6,6 +6,7 @@ This file contains all the server configuration constants and settings.
 # Server Configuration
 HOST = r"0.0.0.0"
 PORT = 9999
+API_PORT = 8080
 
 # Directory Configuration
 PBS_DIR = r"./PBS"

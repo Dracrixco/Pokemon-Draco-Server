@@ -8,7 +8,7 @@ import argparse
 import logging
 import os.path
 
-from config import HOST, PORT, PBS_DIR, LOG_DIR, RULES_DIR
+from config import HOST, PORT, PBS_DIR, LOG_DIR, RULES_DIR, API_PORT
 from server import Server
 
 if __name__ == "__main__":
@@ -17,6 +17,8 @@ if __name__ == "__main__":
                        help='The host IP Address to run this server on. Should be 0.0.0.0 for Google Cloud.')
     parser.add_argument("--port", default=PORT, 
                        help='The port the server is listening on.')
+    parser.add_argument("--api_port", default=API_PORT, type=int,
+                       help='The port for the HTTP API server.')
     parser.add_argument("--pbs_dir", default=PBS_DIR, 
                        help='The path, relative to the working directory, where the PBS files are located.')
     parser.add_argument("--rules_dir", default=RULES_DIR, 
@@ -39,6 +41,6 @@ if __name__ == "__main__":
     
     # Start the server
     try:
-        Server(args.host, int(args.port), args.pbs_dir, args.rules_dir).run()
+        Server(args.host, int(args.port), args.pbs_dir, args.rules_dir, args.api_port).run()
     finally:
         logging.shutdown()

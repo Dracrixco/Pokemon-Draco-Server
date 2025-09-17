@@ -12,12 +12,13 @@ from models import State, Connecting, Finding, Connected, public_id
 from protocol import RecordParser, RecordWriter
 from validation import make_party_validator
 from rules import find_changed_files, load_rules_files
+from api_server import APIServer
 
 
 class Server:
     """Main server class that handles client connections and matchmaking."""
     
-    def __init__(self, host, port, pbs_dir, rules_dir):
+    def __init__(self, host, port, pbs_dir, rules_dir, api_port=8080):
         self.valid_party = make_party_validator(pbs_dir)
         self.loop_count = 1
         _, self.rules_files = find_changed_files(rules_dir, {})
@@ -32,20 +33,28 @@ class Server:
             Finding: self.handle_finding,
             Connected: self.handle_connected,
         }
+        
+        # Initialize API server
+        self.api_server = APIServer(host, api_port)
+        self.api_server.start()
 
     def run(self):
         """Start the server and run the main loop."""
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as self.socket:
-            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-            self.socket.bind((self.host, self.port))
-            logging.info('Started Server on %s:%d', self.host, self.port)
-            self.socket.listen()
-            while True:
-                try:
-                    self.loop()
-                except KeyboardInterrupt:
-                    logging.info('Stopping Server')
-                    break
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as self.socket:
+                self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+                self.socket.bind((self.host, self.port))
+                logging.info('Started Server on %s:%d', self.host, self.port)
+                self.socket.listen()
+                while True:
+                    try:
+                        self.loop()
+                    except KeyboardInterrupt:
+                        logging.info('Stopping Server')
+                        break
+        finally:
+            # Stop API server when main server stops
+            self.api_server.stop()
 
     def loop(self):
         """Main server loop iteration."""
