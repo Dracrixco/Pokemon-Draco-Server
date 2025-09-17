@@ -7,6 +7,7 @@ import configparser
 import io
 import os.path
 import logging
+import glob
 
 from config import (
     POKEMON_MAX_NAME_SIZE, PLAYER_MAX_NAME_SIZE, MAXIMUM_LEVEL,
@@ -24,26 +25,32 @@ def make_party_validator(pbs_dir):
     item_syms = set()
     pokemon_by_name = {}
 
-    # Load abilities
-    with io.open(os.path.join(pbs_dir, r'abilities.txt'), 'r', encoding='utf-8-sig') as abilities_pbs:
-        abilities_pbs_ = configparser.ConfigParser()
-        abilities_pbs_.read_file(abilities_pbs)
-        for internal_id in abilities_pbs_.sections():
-            ability_syms.add(internal_id)
+    # Load abilities from all abilities_*.txt files
+    abilities_files = glob.glob(os.path.join(pbs_dir, 'abilities*.txt'))
+    for abilities_file in abilities_files:
+        with io.open(abilities_file, 'r', encoding='utf-8-sig') as abilities_pbs:
+            abilities_pbs_ = configparser.ConfigParser()
+            abilities_pbs_.read_file(abilities_pbs)
+            for internal_id in abilities_pbs_.sections():
+                ability_syms.add(internal_id)
 
-    # Load moves
-    with io.open(os.path.join(pbs_dir, r'moves.txt'), 'r', encoding='utf-8-sig') as moves_pbs:
-        moves_pbs_ = configparser.ConfigParser()
-        moves_pbs_.read_file(moves_pbs)
-        for internal_id in moves_pbs_.sections():
-            move_syms.add(internal_id)
+    # Load moves from all moves_*.txt files
+    moves_files = glob.glob(os.path.join(pbs_dir, 'moves*.txt'))
+    for moves_file in moves_files:
+        with io.open(moves_file, 'r', encoding='utf-8-sig') as moves_pbs:
+            moves_pbs_ = configparser.ConfigParser()
+            moves_pbs_.read_file(moves_pbs)
+            for internal_id in moves_pbs_.sections():
+                move_syms.add(internal_id)
 
-    # Load items
-    with io.open(os.path.join(pbs_dir, r'items.txt'), 'r', encoding='utf-8-sig') as items_pbs:
-        items_pbs_ = configparser.ConfigParser()
-        items_pbs_.read_file(items_pbs)
-        for internal_id in items_pbs_.sections():
-            item_syms.add(internal_id)
+    # Load items from all items_*.txt files
+    items_files = glob.glob(os.path.join(pbs_dir, 'items*.txt'))
+    for items_file in items_files:
+        with io.open(items_file, 'r', encoding='utf-8-sig') as items_pbs:
+            items_pbs_ = configparser.ConfigParser()
+            items_pbs_.read_file(items_pbs)
+            for internal_id in items_pbs_.sections():
+                item_syms.add(internal_id)
 
     # Load Pokemon species data
     with io.open(os.path.join(pbs_dir, r'server_pokemon.txt'), 'r', encoding='utf-8-sig') as pokemon_pbs:
