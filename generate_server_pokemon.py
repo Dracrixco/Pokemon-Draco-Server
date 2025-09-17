@@ -33,7 +33,7 @@ def clean_pbs_except_moves_abilities_items():
     
     for file_path in glob.glob(os.path.join(pbs_dir, "*.txt")):
         file_name = os.path.basename(file_path)
-        if not any(keyword in file_name for keyword in ['moves', 'abilities', 'items']):
+        if not any(keyword in file_name for keyword in ['moves', 'abilities', 'items', 'server_pokemon']):
             try:
                 os.remove(file_path)
                 print(f"Removed: {file_name}")
@@ -400,12 +400,7 @@ def main():
     tm_files = expand_with_suffixes(PBS_DIR, "tm.txt", SUFFIXES)
     
     output_file = "PBS/server_pokemon.txt"
-    
-    # Clean PBS directory
-    print("Cleaning PBS directory...")
-    clean_pbs_except_moves_abilities_items()
-    
-    # Generate server pokemon file
+     # Generate server pokemon file
     print("Generating server_pokemon.txt...")
     generate_server_pokemon_pbs(
         mode=MODE,
@@ -414,6 +409,10 @@ def main():
         forms_files=forms_files,
         tm_files=tm_files
     )
+
+    # Clean PBS directory
+    print("Cleaning PBS directory...")
+    clean_pbs_except_moves_abilities_items()
     
     print("Done!")
 
