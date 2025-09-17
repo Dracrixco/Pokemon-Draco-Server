@@ -2740,6 +2740,78 @@ BPPrice = 50
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Aerodactyl hold it, and it will be able to Mega Evolve.
 #-------------------------------
+[DRAGONITITE]
+Name = Dragonitite
+NamePlural = Dragonitites
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Dragonite hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[VICTREEBELITE]
+Name = Victreebelite
+NamePlural = Victreebelites
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Victreebel hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CHESNAUGHTITE]
+Name = Chesnaughtite
+NamePlural = Chesnaughtites
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Chesnaught hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[DELPHOXITE]
+Name = Delphoxite
+NamePlural = Delphoxites
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Delphox hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GRENINJAITE]
+Name = Greninjaite
+NamePlural = Greninjaites
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Greninja hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MALAMARITE]
+Name = Malamarite
+NamePlural = Malamarites
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Malamar hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[RAICHUITEX]
+Name = Raichuite X
+NamePlural = Raichuites X
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Raichu hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[RAICHUITEY]
+Name = Raichuite Y
+NamePlural = Raichuites Y
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Raichu hold it, and it will be able to Mega Evolve.
+#-------------------------------
 [MEWTWONITEX]
 Name = Mewtwonite X
 NamePlural = Mewtwonite Xs

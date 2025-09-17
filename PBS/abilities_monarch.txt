@@ -1,0 +1,5 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[GREATPALMS]
+Name = Great Palms
+Description = Increases the damage of movements that make use of the palms.

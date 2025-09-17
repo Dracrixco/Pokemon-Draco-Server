@@ -1,0 +1,509 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[POKEVIAL]
+Name = Poke Vial
+NamePlural = Poke Vial
+Pocket = 8
+Price = 25000
+Flags = KeyItem
+Description = Allows you to heal all your Pokemon equipment, it has to be recharged at the Pokemon center.
+#-------------------------------
+[EMPTYPOKEVIAL]
+Name = Poke Vial
+NamePlural = Poke Vial
+Pocket = 8
+Price = 25000
+Flags = KeyItem
+Description = Allows you to heal all your Pokemon equipment, it has to be recharged at the Pokemon center.
+#-------------------------------
+[EMPTYBOTTLE]
+Name = Empty Bottle
+NamePlural = Empty Bottle
+Pocket = 9
+Price = 100
+Description = It is an empty bottle, a soulless shell, value = nil. It contains no water, juice or even the resentment of a forgotten soda. It's basically... bottled air with style.
+#-------------------------------
+[POKEBALLBASE]
+Name = Poké Ball Base
+NamePlural = Poké Balls Base
+Pocket = 9
+Price = 100
+Description = A base component used to craft various types of Poké Balls.
+#-------------------------------
+[FUSEDSHADOWFRAGMENT]
+Name = Fused Shadow Fragment
+NamePlural = Fused Shadow Fragments
+Pocket = 9
+Price = 100
+Description = A cold, whispering shard of shadow that pulses with faint, ancient power. Rumored to be a remnant of a broken relic, it unnerves those who hold it.
+#-------------------------------
+[SKITTY_HAIR]
+Name = Skitty Hair
+NamePlural = Skitty Hair
+Pocket = 9
+Price = 100
+Description = A soft and silky coat, quite pleasant to the touch.
+#-------------------------------
+[AUTUMNLEAF]
+Name = Autumn Leaf
+NamePlural = Autumn Leafs
+Pocket = 9
+Price = 10
+Description = It's an autumn leaf, although you probably didn't get it in autumn.... It's best not to think about that.
+#-------------------------------
+[SKITTY_PIN]
+Name = Skitty Pin
+NamePlural = Skitty Pin
+Pocket = 9
+Price = 100
+Description = Very sharp pointed pin, for some reason it does not cause any pain when penetrating the skin.
+#-------------------------------
+[DEADSKIN]
+Name = Dead Skin
+NamePlural = Dead Skin
+Pocket = 9
+Price = 100
+Description = It looks like skin shed by a Pokemon, probably bug-type.
+#-------------------------------
+[TRAINER_OUTFIT_MALE]
+Name = Trainer Outfit Male
+NamePlural = Trainer Outfit Male
+Pocket = 10
+Price = 1500
+Flags = KeyItem,Outfit
+Description = A very good outfit for a very good trainer, yes sir.
+#-------------------------------
+[TRAINER_OUTFIT_FEMALE]
+Name = Trainer Outfit Female
+NamePlural = Trainer Outfit Female
+Pocket = 10
+Price = 1500
+Flags = KeyItem,Outfit
+Description = A very good outfit for a very good trainer, yes sir.
+#-------------------------------
+[BUG_CATCHER_OUTFIT]
+Name = Bug Catcher Outfit
+NamePlural = Bug Catcher Outfits
+Pocket = 10
+Price = 2500
+Flags = KeyItem,Outfit
+Description = A suit that every bug catcher needs!
+#-------------------------------
+[FISHERMAN_OUTFIT]
+Name = Fisherman Outfit
+NamePlural = Fisherman Outfits
+Pocket = 10
+Price = 2000
+Flags = KeyItem,Outfit
+Description = The perfect outfit for any fisherman.
+#-------------------------------
+[VEGETA_OUTFIT]
+Name = Vegeta Outfit
+NamePlural = Vegeta Outfits
+Pocket = 10
+Price = 3000
+Flags = KeyItem,Outfit
+Description = An outfit fit for a Saiyan prince. Just don't let anyone call you Kakarot!
+#-------------------------------
+[LINK_OUTFIT]
+Name = Link Outfit
+NamePlural = Link Outfits
+Pocket = 10
+Price = 3000
+Flags = KeyItem,Outfit
+Description = A legendary outfit for a hero in green. Perfect for saving princesses and smashing pots!
+#-------------------------------
+[ZELDA_OUTFIT]
+Name = Zelda Outfit
+NamePlural = Zelda Outfits
+Pocket = 10
+Price = 3000
+Flags = KeyItem,Outfit
+Description = A royal outfit for the princess of Hyrule. Perfect for ruling kingdoms and wielding the Triforce of Wisdom.
+#-------------------------------
+[GOKU_OUTFIT]
+Name = Goku Outfit
+NamePlural = Goku Outfits
+Pocket = 10
+Price = 3000
+Flags = KeyItem,Outfit
+Description = An outfit for the strongest fighter in the universe. Just make sure to keep your power level over 9000!
+#-------------------------------
+[RAM_REM_OUTFIT]
+Name = Ram and Rem Outfit
+NamePlural = Ram and Rem Outfits
+Pocket = 10
+Price = 2500
+Flags = KeyItem,Outfit
+Description = A matching maid outfit for the twin sisters from Re:Zero. Perfect for serving tea and protecting the mansion!
+#-------------------------------
+[MEGURINE_LUKA_OUTFIT]
+Name = Megurine Luka Outfit
+NamePlural = Megurine Luka Outfits
+Pocket = 10
+Price = 2500
+Flags = KeyItem,Outfit
+Description = An elegant outfit for the virtual diva Megurine Luka. Perfect for singing your heart out and looking fabulous!
+#-------------------------------
+[MEGAMAN_OUTFIT]
+Name = Mega Man Outfit
+NamePlural = Mega Man Outfits
+Pocket = 10
+Price = 3000
+Flags = KeyItem,Outfit
+Description = A high-tech blue combat suit inspired by Mega Man. Ideal for charging into battles and blasting through obstacles!
+#-------------------------------
+[SHANTAE_OUTFIT]
+Name = Shantae Outfit
+NamePlural = Shantae Outfits
+Pocket = 10
+Price = 3000
+Flags = KeyItem,Outfit
+Description = A vibrant outfit inspired by the half-genie hero Shantae. Perfect for dancing, hair-whip attacks and adventuring through exotic islands!
+#-------------------------------
+[SABER_OUTFIT]
+Name = Saber Outfit
+NamePlural = Saber Outfits
+Pocket = 10
+Price = 3000
+Flags = KeyItem,Outfit
+Description = A noble outfit inspired by Saber, the legendary Servant from the Fate series. Perfect for wielding the holy sword Excalibur and embarking on quests!
+#-------------------------------
+[PAJAMA_OUTFIT_MALE]
+Name = Pajama Outfit Male
+NamePlural = Pajama Outfits Male
+Pocket = 10
+Price = 1500
+Flags = KeyItem,Outfit
+Description = A comfortable pajama outfit for a good night's sleep.
+#-------------------------------
+[PAJAMA_OUTFIT_FEMALE]
+Name = Pajama Outfit Female
+NamePlural = Pajama Outfits Female
+Pocket = 10
+Price = 1500
+Flags = KeyItem,Outfit
+Description = A comfortable pajama outfit for a good night's sleep.
+#-------------------------------
+[CALENDULA_OUTFIT]
+Name = Calendula Outfit
+NamePlural = Calendula Outfit
+Pocket = 10
+Price = 2500
+Flags = KeyItem,Outfit
+Description = The outfit that Calendula use.
+#-------------------------------
+[AGATHA_OUTFIT]
+Name = Agatha Outfit
+NamePlural = Agatha Outfit
+Pocket = 10
+Price = 2500
+Flags = KeyItem,Outfit
+Description = The outfit that Agatha use.
+#-------------------------------
+[LIVE_OUTFIT]
+Name = Live Outfit
+NamePlural = Live Outfit
+Pocket = 10
+Price = 2500
+Flags = KeyItem,Outfit
+Description = The outfit that Live use.
+#-------------------------------
+[POKET_PHONE]
+Name = Phone
+NamePlural = Phones
+Pocket = 8
+Price = 5000
+Flags = KeyItem
+Description = A handy device for trainers to stay connected and manage their Pokémon.
+#-------------------------------
+[MEDICINAL_LEAF]
+Name = Medicinal Leaf
+NamePlural = Medicinal Leaves
+Pocket = 9
+Price = 200
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Description = A bitter medicinal leaf that restores 5 HP.
+#-------------------------------
+[THICK_GLOVES]
+Name = Thick Gloves
+NamePlural = Thick Gloves
+Pocket = 8
+Price = 1500
+Flags = KeyItem
+Description = A pair of thick gloves that provide excellent protection.
+#-------------------------------
+[SHINYPOTION]
+Name = Shiny Potion
+NamePlural = Shiny Potions
+Pocket = 2
+Price = 95000
+FieldUse = OnPokemon
+Description = A special potion that makes the Pokemon shiny.
+#-------------------------------
+[OBEDIENCECANDY]
+Name = Obedience Candy
+NamePlural = Obedience Candys
+Pocket = 2
+Price = 95000
+FieldUse = OnPokemon
+Description = A candy that makes a Pokémon completely obedient to its trainer, regardless of level.
+#-------------------------------
+[DISOBEDIENCECANDY]
+Name = Rebellion Candy
+NamePlural = Rebellion Candys
+Pocket = 2
+Price = 50000
+FieldUse = OnPokemon
+Description = A candy that makes a Pokémon rebellious and likely to ignore commands in battle.
+#-------------------------------
+[LOVEPOTION]
+Name = Love Potion
+NamePlural = Love Potion
+Pocket = 1
+Price = 10000
+Flags = Fling_10
+Description = Allows the user to attract any target, regardless of gender (even if genderless).
+#-------------------------------
+[TUMBLESTONE]
+Name = Tumblestone
+NamePlural = Tumblestones
+Pocket = 9
+Price = 200
+Description = A normal tumblestone, super common, super generic, is just a tumblestone.
+#-------------------------------
+[WHITETUMBLESTONE]
+Name = White Tumblestone
+NamePlural = White Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a white color, is nice, is a good color.
+#-------------------------------
+[REDTUMBLESTONE]
+Name = Red Tumblestone
+NamePlural = Red Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a red color, is quite vibrant and stands out.
+#-------------------------------
+[BLUETUMBLESTONE]
+Name = Blue Tumblestone
+NamePlural = Blue Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a blue color, reminiscent of clear skies.
+#-------------------------------
+[BLACKTUMBLESTONE]
+Name = Black Tumblestone
+NamePlural = Black Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a black color, giving it a sleek and elegant look.
+#-------------------------------
+[YELLOWTUMBLESTONE]
+Name = Yellow Tumblestone
+NamePlural = Yellow Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a bright yellow color, full of energy.
+#-------------------------------
+[PINKTUMBLESTONE]
+Name = Pink Tumblestone
+NamePlural = Pink Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a pink color, sweet and charming.
+#-------------------------------
+[GRAYTUMBLESTONE]
+Name = Gray Tumblestone
+NamePlural = Gray Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a gray color, neutral and understated.
+#-------------------------------
+[ORANGETUMBLESTONE]
+Name = Orange Tumblestone
+NamePlural = Orange Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with an orange color, warm and inviting.
+#-------------------------------
+[PURPLETUMBLESTONE]
+Name = Purple Tumblestone
+NamePlural = Purple Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a purple color, often associated with mystery.
+#-------------------------------
+[GREENTUMBLESTONE]
+Name = Green Tumblestone
+NamePlural = Green Tumblestones
+Pocket = 9
+Price = 200
+Description = A Tumblestone with a green color, the best color.
+#-------------------------------
+[SCISSORS]
+Name = Scissors
+NamePlural = Scissors
+Pocket = 8
+Price = 1000
+Flags = KeyItem
+Description = They are capable of cutting bushes that obstruct the passage.
+#-------------------------------
+[SELECTIVEPHEROMONES]
+Name = Selective Pheromone
+NamePlural = Selective Pheromones
+Pocket = 1
+Price = 5000
+Description = Allows you to select a route Pokemon from the list of encounters. The Pokemon will have at least one perfect IV.
+#-------------------------------
+[WOODARMOR]
+Name = Wood Armor
+NamePlural = Wood Armor
+Pocket = 1
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = Generates a small proto-shield when entering combat.
+#-------------------------------
+[FIERCETEETH]
+Name = Fierce Teeth
+NamePlural = Fierce Teeth
+Pocket = 1
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = Denture made of resistant material that enhances the power of biting movements.
+#-------------------------------
+[COCOBERRY]
+Name = Coco Berry
+NamePlural = Coco Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80
+Description = A random resistance is applied when entering combat. The berry is consumed.
+#-------------------------------
+[THELIMITER]
+Name = The Limiter
+NamePlural = The Limiter
+Pocket = 1
+Price = 5000
+SellPrice = 500
+Flags = Fling_30
+Description = Reduces the user's maximum life when entering combat.
+#-------------------------------
+[REGENERATIVETEA]
+Name = Regenerative Tea
+NamePlural = Regenerative Tea
+Pocket = 1
+Price = 5000
+SellPrice = 500
+Flags = Fling_30
+Description = Applies the continuous regeneration effect for 3 turns.
+#-------------------------------
+[THEHATER]
+Name = The Hater
+NamePlural = The Hater
+Pocket = 1
+Price = 10000
+SellPrice = 5000
+Flags = Fling_30
+Description = The user applies an hater type when entering combat.
+#-------------------------------
+[THEPERISHSONG]
+Name = The Perish  Song
+NamePlural = The Perish  Song
+Pocket = 1
+Price = 10000
+SellPrice = 5000
+Flags = Fling_30
+Description = All stats are increased when entering combat, but the deadly chanting effect is also applied. The user cannot be changed.
+#-------------------------------
+[TWILIGHTSTONE]
+Name = Twilight Stone
+NamePlural = Twilight Stones
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve.
+#-------------------------------
+[MUDDYGLOVE]
+Name = Muddy Glove
+NamePlural = Muddy Gloves
+Pocket = 1
+Price = 15000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. Increase the damage of the user on Mud Sport effect.
+#-------------------------------
+[MUDDYBOOTS]
+Name = Muddy Boot
+NamePlural = Muddy Boots
+Pocket = 1
+Price = 15000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. Increase the speed of the user on Mud Sport effect.
+#-------------------------------
+[MUDDYCRYSTAL]
+Name = Muddy Crystal
+NamePlural = Muddy Crystals
+Pocket = 1
+Price = 15000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. Put the mud sport effect on entering battle.
+#-------------------------------
+[MUDDYARMOR]
+Name = Muddy Armor
+NamePlural = Muddy Armors
+Pocket = 1
+Price = 15000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. The holder's HP is gradually restored during battle on Mud Sport effect.
+#-------------------------------
+[DARK_SCYTHE]
+Name = Dark Scythe
+NamePlural = Dark Scythes
+Pocket = 1
+Price = 15000
+SellPrice = 500
+BattleUse = OnFoe
+Flags = Fling_30
+Description = If an opponent's HP falls to 10% or less after the user do a move, the holder instantly executes that opponent.
+#-------------------------------
+[MUDBALL]
+Name = MUD Ball
+NamePlural = MUD Balls
+Pocket = 3
+Price = 1000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially on Mud Sport effect.
+#-------------------------------
+[ICECROWN]
+Name = Ice Crown
+NamePlural = Ice Crown
+Pocket = 1
+Price = 3000
+SellPrice = 5500
+Flags = Fling_30
+Description = Apply Ice Weakness to all battlers when enter the battle. Just one time per battle.
+#-------------------------------
+[TWILIGHTCROWN]
+Name = Twilight Crown
+NamePlural = Twilight Crowns
+Pocket = 1
+Price = 15000
+SellPrice = 7500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. Applies Trick Room for 3 turns when entering battle.
+#-------------------------------
+[MASTERSWORD]
+Name = Master Sword
+NamePlural = Master Swords
+Pocket = 1
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = Slightly increases the damage of cutting moves. The effect is bigger if the holder's species is Growrage or Twylican.

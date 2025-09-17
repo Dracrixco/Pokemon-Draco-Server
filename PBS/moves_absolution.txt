@@ -1,0 +1,384 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[TOUCHTHELIMIT]
+Name = Touch The Limit
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserMainStats1AndReducesMaximunLife
+Flags = HpLimitReleated
+Description = Reduces his maximum hp a lot in exchange for improving all his stats by 1 level. The move fails if the user already has limited hp.
+#-------------------------------
+[EXPLOSIVEFEATHER]
+Name = Explosive Feather
+Type = FLYING
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = TargetSuperEffectiveAgainstRockSteelReduceMaxHp
+Flags = CanProtect,CanMirrorMove,Bomb,HpLimitReleated
+Description = The move is super effective against rock and steel types. Reduces the maximum hp of the user.
+#-------------------------------
+[BURNTHELIMIT]
+Name = Burn The Limit
+Type = FIRE
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = LimitHpRemovedAndDamegeDealsBaseOnLimitHp
+Flags = CanProtect,CanMirrorMove,HpLimitReleated
+Description = Causes damage according to the hp limit and removes the hp limiter. The move fails if the user hp is not limited.
+#-------------------------------
+[SOLARDESTRUCTION]
+Name = Solar Destruction
+Type = FIRE
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = LimitHpRemovedAndDamegeDealsBaseOnLimitHp
+Flags = CanProtect,CanMirrorMove,HpLimitReleated
+Description = Causes damage according to the hp limit and removes the hp limiter. The move fails if the user hp is not limited.
+#-------------------------------
+[PROTOSHIELD]
+Name = Proto Shield
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = Generate30ProtoShield
+Description = Generate a tiny proto-shield for the user. The proto-shield can be accumulated.
+#-------------------------------
+[MARKINGTERRITORY]
+Name = Marking Territory
+Type = GROUND
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = AllFoes
+FunctionCode = MarkingTerritory
+Description = Increases both defenses, but the user can no longer be changed.
+PasiveDescription = If the Pokémon is unable to escape or be changed, it starts generating proto-shield each turn.
+#-------------------------------
+[WILDPUNCH]
+Name = Wild Punch
+Type = GRASS
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = WildPunch
+Flags = CanProtect,CanMirrorMove,Contact,Punching
+Description = Causes more damage depending on the proto shield generated.
+#-------------------------------
+[NULLIFYINGSMOKE]
+Name = Nullifying Smoke
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 30
+Target = AllNearOthers
+FunctionCode = RemoveTargetTypes
+Description = A heavy smokes that removes the types of the target.
+#-------------------------------
+[DEBILITATINGTOXIN]
+Name = Debilitating Toxin
+Type = POISON
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = Generate3Weakness
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Apply 3 weaknesses to the target.
+#-------------------------------
+[ABYSSALBITE]
+Name = Abyssal Bite
+Type = WATER
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = MoreDamageOnMoreWeakness
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+Description = Causes more damage depending on the amount of extra weaknesses the target possesses.
+#-------------------------------
+[SHAMANBLESSING]
+Name = Shaman Blessing
+Type = FAIRY
+Category = Status
+Accuracy = 100
+TotalPP = 25
+Target = User
+FunctionCode = Generate3Resistances
+Description = The user applies 3 random resistances to themself, which can be accumulated.
+#-------------------------------
+[DRAGONSLAYER]
+Name = Dragon Slayer
+Type = DRAGON
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DragonSlayer
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Applies double damage if the target is a dragon type.
+PasiveDescription = The user increases its attack after defeating a dragon-type Pokemon.
+#-------------------------------
+[FLOWERFANG]
+Name = Flower Fang
+Type = GRASS
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = LowerTargetEvasion1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+Description = Bites the target with its large fangs, always reduce the target evasion.
+#-------------------------------
+[PREDATORYGAME]
+Name = Predatory Game
+Type = DARK
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = CannotMakeTargetFaint
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Causes a lot of damage to the target but leaves it with at least 1 HP.
+#-------------------------------
+[SEDUCTION]
+Name = Seduction
+Type = NORMAL
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = AttractTargetAndRedirectMovesToUser
+Flags = CanProtect,CanMirrorMove,LoveReleated
+Description = Attracts the attention of the targets, enamoring them and forcing them to attack the user who used the movement.
+#-------------------------------
+[ABUSE]
+Name = Abuse
+Type = DARK
+Category = Physical
+Power = 150
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = DealsDamageToInLoveTargets
+Flags = CanProtect,CanMirrorMove,LoveReleated,Contact
+Description = Causes massive damage to the target and removes the effect of falling in love. The move fails if the target is not in love with the user.
+#-------------------------------
+[SUPPLICATION]
+Name = Supplication
+Type = NORMAL
+Category = Status
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = Supplication
+Description = The user begs for mercy, reducing the target's evasion.
+PasiveDescription = The move is likely to be executed when the user recieve damage.
+#-------------------------------
+[INTHESPOTLIGHT]
+Name = In The Spotlight
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = UserAndTargetTrappedInBattle
+Description = Prevents the target from escaping. The user cannot escape either.
+PasiveDescription = Attacking enemies trapped in combat increases accuracy.
+#-------------------------------
+[SHERIFFSHOT]
+Name = Sheriff Shot
+Type = GROUND
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 15
+Target = NearOther
+FunctionCode = CannotBeRedirected
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user ignores any effects that redirect moves. It has a high critical-hit ratio.
+#-------------------------------
+[TWILIGHTCUT]
+Name = Twilight Cut
+Type = DARK
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = MoreDamageOnDark
+Flags = CanProtect,CanMirrorMove,Contact,Slicing
+Description = Deals double damage if the user is in a dark area or have <b>Dark Hater</b>.
+#-------------------------------
+[TRIFORCE]
+Name = Triforce
+Type = STEEL
+Category = Status
+Accuracy = 100
+TotalPP = 25
+Target = User
+FunctionCode = Triforce
+Description = Increases the attack, special attack and precision of the user.
+PasiveDescription = The user get <b>Dark Hater</b> when entering combat.
+#-------------------------------
+[NIGHTFALL]
+Name = Nightfall
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 5
+Target = BothSides
+FunctionCode = Nightfall
+Description = Turns the combat into a dark zone, as if it were at night or in a cave. The move fails if it is already in a dark zone.
+#-------------------------------
+[MARTIALFANG]
+Name = Martial Fang
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 100
+Description = Bites the target by doing a martial technique. Always reduce the target's defense.
+#-------------------------------
+[TELATRAPO]
+Name = Telatrapo
+Type = BUG
+Category = Status
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = Telatrapo
+Flags = CanProtect,CanMirrorMove
+Description = Traps the enemy with a sticky cloth, preventing him from escaping for 3 turns.
+PasiveDescription = Reduces the evasion of targets unable to escape.
+#-------------------------------
+[TORTUROUSGRAB]
+Name = Torturous Grab
+Type = BUG
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = MoreDamageOnEvasionDifference
+Flags = CanProtect,CanMirrorMove,Contact
+Description = Causes more damage the greater the evasion difference between the user and the target.
+#-------------------------------
+[SILKBOMB]
+Name = Silk Bomb
+Type = BUG
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = StartSilkBombTarget
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = This lowers the target's Evasion stat over three turns.
+#-------------------------------
+[SILKYCOCOON]
+Name = Silky Cocoon
+Type = BUG
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = User
+FunctionCode = SilkShield
+Description = The user increases his defense and special defense.
+PasiveDescription = Upon entering battle, the user gains a silk shield that makes them immune to powder-based moves.
+#-------------------------------
+[CRYOSWITCH]
+Name = Cryo Switch
+Type = ICE
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#-------------------------------
+[CRYOSPEED]
+Name = Cryo Speed
+Type = ICE
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PriorityOnHail
+Flags = CanProtect,CanMirrorMove
+Description = This move always goes first in a hailstorm or in a Snowstorm.
+#-------------------------------
+[ARCTICMALTREATMENT]
+Name = Arctic Maltreatment
+Type = ICE
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PriorityOnHailSwitchOutUser
+Flags = CanProtect,CanMirrorMove
+Description = After making the attack, the user switch place with a party member. If the user is in hailstorm, this move always go first.
+#-------------------------------
+[WEIRDPUNCH]
+Name = Weird Punch
+Type = PSYCHIC
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DoubleDamageInTrickRoom
+Flags = CanProtect,CanMirrorMove,Contact,Punching
+Description = Deals double damage while Trick Room is active.
+#-------------------------------
+[ACCELBURST]
+Name = Accel Burst
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseTargetSpeed2
+Description = Sharply boosts the target's Speed by 2 stages.
+#-------------------------------
+[AQUAAXE]
+Name = Aqua Axe
+Type = WATER
+Category = Physical
+Power = 90
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+EffectChance = 75
+Description = The user swings its aqua axe at the target. Can confuses the target if it hits.

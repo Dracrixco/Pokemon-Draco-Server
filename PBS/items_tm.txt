@@ -1,0 +1,45 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[TM101]
+Name = TM101
+NamePlural = TM101s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FLAMECHARGE
+Description = ???
+#-------------------------------
+[TM102]
+Name = TM102
+NamePlural = TM102s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FLOWERFANG
+Description = ???
+#-------------------------------
+[TM103]
+Name = TM103
+NamePlural = TM103s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MARTIALFANG
+Description = ???
+#-------------------------------
+[TM104]
+Name = TM104
+NamePlural = TM104s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SILKYCOCOON
+Description = ???

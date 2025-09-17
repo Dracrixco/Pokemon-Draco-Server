@@ -1,0 +1,57 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[MEDICINE_RECIPE]
+Name = Medicine Recipe
+NamePlural = Medicine Recipes
+Pocket = 8
+Price = 1000
+Flags = KeyItem
+Description = A recipe for creating various medicinal items.
+#-------------------------------
+[POKEBALLS_RECIPE_1]
+Name = Poké Balls Recipe
+NamePlural = Poké Balls Recipe
+Pocket = 8
+Price = 1000
+Flags = KeyItem
+Description = A recipe for creating various types of Poké Balls.
+#-------------------------------
+[POKEBALLS_RECIPE_2]
+Name = Poké Ball Recipe
+NamePlural = Poké Balls Recipe
+Pocket = 8
+Price = 1000
+Flags = KeyItem
+Description = A recipe for creating various types of specific Poké Ball.
+#-------------------------------
+[POKEBALLS_RECIPE_3]
+Name = Poké Ball Recipe
+NamePlural = Poké Balls Recipe
+Pocket = 8
+Price = 1000
+Flags = KeyItem
+Description = A recipe for creating various types of very specific Poké Ball.
+#-------------------------------
+[TWILIGHTCROWN_RECIPE]
+Name = Twilight Crown Recipe
+NamePlural = Twilight Crown Recipes
+Pocket = 8
+Price = 1000
+Flags = KeyItem
+Description = A recipe to craft the Twilight Crown, an item that applies Trick Room for 3 turns when entering battle.
+#-------------------------------
+[ICECROWN_RECIPE]
+Name = Ice Crown Recipe
+NamePlural = Ice Crown Recipes
+Pocket = 8
+Price = 1000
+Flags = KeyItem
+Description = A recipe to craft the Ice Crown, an item that applies Ice Weakness to all battlers when entering battle.
+#-------------------------------
+[DARK_SCYTHE_RECIPE]
+Name = Dark Scythe Recipe
+NamePlural = Dark Scythe Recipes
+Pocket = 8
+Price = 1000
+Flags = KeyItem
+Description = A recipe to craft the Dark Scythe.

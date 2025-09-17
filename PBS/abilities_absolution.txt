@@ -1,0 +1,53 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[JUNGLEPROTECTOR]
+Name = Jungle Protector
+Description = If the Pokémon cannot escape or be switched out, it generates proto-shield at the end of each turn.
+#-------------------------------
+[TOTHELIMIT]
+Name = To The Limit
+Description = Each time the Pokémon's maximum HP is reduced, it boosts a random stat, pushing itself to its limits.
+#-------------------------------
+[NEUROTOXIN]
+Name = Neurotoxin
+Description = Contact with the Pokémon applies a random weakness to the target and reduces it's evasion.
+#-------------------------------
+[PREDATORTRACKING]
+Name = Predator Tracking
+Description = The less health the target has, the more accurate and powerful the user's moves become. Additionally, the user gains increased speed if an enemy has low health.
+#-------------------------------
+[ETERNALHUNGER]
+Name = Eternal Hunger
+Description = When the Pokémon's health drops below half, its attack and speed are sharply increased, driven by an insatiable hunger.
+#-------------------------------
+[VAMP]
+Name = Vamp
+Description = The user takes reduced damage from targets that are infatuated with it, feeding off their affection.
+#-------------------------------
+[TYRANNY]
+Name = Tyranny
+Description = The Pokémon deals increased damage to targets that are unable to escape, asserting its dominance.
+#-------------------------------
+[LIKESILK]
+Name = Like Silk
+Description = The Pokémon's speed increases the more health it has, moving with silky smooth precision.
+#-------------------------------
+[TAILWINDBLESS]
+Name = Tailwind Bless
+Description = Upon entering the battle, the Pokémon summons a tailwind that boosts the speed of its team for 3 turns.
+#-------------------------------
+[ICEKING]
+Name = Ice King
+Description = Apply Ice Weakness to all battlers when enter the battle. Just one time per battle.
+#-------------------------------
+[INEEDAHERO]
+Name = I Need A Hero
+Description = The user get Dark Hater when entering combat.
+#-------------------------------
+[INSECTIVOROUSPLANT]
+Name = Insectivorous Plant
+Description = Get Bug Hater and Bug Immunity when entering a battle.
+#-------------------------------
+[RAINCUTTER]
+Name = Rain Cutter
+Description = Powers up the user's slicing and cutting moves while Rain is active.
