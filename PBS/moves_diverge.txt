@@ -12,6 +12,18 @@ FunctionCode = EffectivenessIncludesFireType
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.
 #-------------------------------
+[ALLURINGRATTLE]
+Name = Alluring Rattle 
+Type = GROUND
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealAllyOrDamageFoe
+Flags = CanProtect,CanMirrorMove
+Description = Plays an enchanting melody that makes it the center of attention. If ally is targeted it will heal instead.
+#-------------------------------
 [SANDWAVE]
 Name = Sand Wave
 Type = GROUND
@@ -24,6 +36,19 @@ FunctionCode = LowerTargetAccuracy1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.
+#-------------------------------
+#-------------------------------
+[MAGIPOP]
+Name = Magi Pop
+Type = FAIRY
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is physically pounded with a long tail or a foreleg, etc.
 #-------------------------------
 [BURROWBACK]
 Name = Burrow Back
@@ -308,6 +333,19 @@ Target = NearOther
 FunctionCode = RaiseUserAtkDef1IfTargetFaints
 Flags = CanProtect,CanMirrorMove,CannotMetronome
 Description = The user attacks by sending a frightful amount of small ghosts at opposing Pokémon
+#-------------------------------
+[BLITZFIST]
+Name = Blitz Fist
+Type = FIGHTING
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 1
+FunctionCode = HitTwoToFiveTimes
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
 #-------------------------------
 [VIGORCLAW]
 Name = Vigor Claw

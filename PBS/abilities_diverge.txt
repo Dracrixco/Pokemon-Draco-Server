@@ -19,3 +19,51 @@ Description = Applies dusty terrain on enter into combat.
 [HYDRATE]
 Name = Hydrate
 Description = Normal type moves used by this Pokemon become Water typed.
+#-------------------------------
+[SANDSHIFT]
+Name = Sand Shift
+Description = Weakens incoming Fire-type moves and prevents burns.
+#-------------------------------
+[TECTONSOUND]
+Name = Tecton Sound
+Description = Its sound-based moves become Ground-type-type.
+#-------------------------------
+[LEADFOOT]
+Name = Lead Foot
+Description = Boosts the power of kicking moves.
+#-------------------------------
+[MOMENTUM]
+Name = Momentum
+Description = Boosts the power of rotation moves.
+#-------------------------------
+[ARTHRONIZE]
+Name = Arthronize
+Description = Normal-type moves become Bug-type and powered up.
+#-------------------------------
+[PYRONIZE]
+Name = Pyronize
+Description = Normal-type moves become Fire-type and powered up.
+#-------------------------------
+[STRONGHIDE]
+Name = Strong Hide
+Description = Reduces damage from attacks that make contact.
+#-------------------------------
+[SOLIDBUILD]
+Name = Solid Build
+Description = Boosts Sp.Defense when hit by an attack.
+#-------------------------------
+[MYSTICECHO]
+Name = Mystic Echo
+Description = Repeats Sound Moves
+#-------------------------------
+[PREDATOR]
+Name = Mystic Echo
+Description = This pokemon's moves never miss under the radiant moon
+#-------------------------------
+[MOONWALKER]
+Name = Mystic Echo
+Description = This pokemon's speed is doubled under Radiant moon
+#-------------------------------
+[PURESOUL]
+Name = Pure Soul
+Description = Weakens the power of Dark-type moves.

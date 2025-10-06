@@ -384,11 +384,20 @@ Price = 20
 Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80
 Description = A random resistance is applied when entering combat. The berry is consumed.
 #-------------------------------
+[SHINYBERRY]
+Name = Shiny Berry
+NamePlural = Shiny Berries
+Pocket = 5
+Flags = Berry,Fling_10,NaturalGift_POISON_80
+Price = 95000
+FieldUse = OnPokemon
+Description = A special berry that makes the Pokemon shiny.
+#-------------------------------
 [THELIMITER]
 Name = The Limiter
 NamePlural = The Limiter
 Pocket = 1
-Price = 5000
+Price = 25000
 SellPrice = 500
 Flags = Fling_30
 Description = Reduces the user's maximum life when entering combat.
@@ -406,10 +415,19 @@ Description = Applies the continuous regeneration effect for 3 turns.
 Name = The Hater
 NamePlural = The Hater
 Pocket = 1
-Price = 10000
+Price = 25000
 SellPrice = 5000
 Flags = Fling_30
-Description = The user applies an hater type when entering combat.
+Description = The user gets a hater type when entering combat.
+#-------------------------------
+[THECONFUSED]
+Name = The Confused
+NamePlural = The Confused
+Pocket = 1
+Price = 99000
+SellPrice = 5000
+Flags = Fling_30
+Description = All stats are increased when entering combat, but the user becomes confused.
 #-------------------------------
 [THEPERISHSONG]
 Name = The Perish  Song
