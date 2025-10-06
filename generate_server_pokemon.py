@@ -12,7 +12,7 @@ from typing import Dict, List, Set, Optional
 
 
 # Configuration
-SUFFIXES = ["absolution", "monarch"]
+SUFFIXES = ["absolution", "monarch", "diverge"]
 MODE = "shared"  # 'simple' | 'propagate' | 'shared'
 PBS_DIR = "./PBS"
 

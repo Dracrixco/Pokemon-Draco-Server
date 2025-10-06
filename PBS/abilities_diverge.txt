@@ -1,0 +1,21 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[ZEPHYRGLIDER]
+Name = Zephyr Glider
+Description = Boosts special attack in Tailwind or when attacked by wind moves.
+#-------------------------------
+[SANDYBODY]
+Name = Sandy Body
+Description = Boosts the Pokémon's defense in a sandstorm.
+#-------------------------------
+[ANTITOXIN]
+Name = Antitoxin
+Description = Draws in all Poison-type moves to up Attack.
+#-------------------------------
+[DUSTYSURGE]
+Name = Dusty Surge
+Description = Applies dusty terrain on enter into combat.
+#-------------------------------
+[HYDRATE]
+Name = Hydrate
+Description = Normal type moves used by this Pokemon become Water typed.

@@ -1,0 +1,535 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[MAGIFIRETWISTER]
+Name = Magifire Twister
+Type = FAIRY
+Category = Special
+Power = 100
+Accuracy = 95
+TotalPP = 10
+Target = Other
+FunctionCode = EffectivenessIncludesFireType
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.
+#-------------------------------
+[SANDWAVE]
+Name = Sand Wave
+Type = GROUND
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.
+#-------------------------------
+[BURROWBACK]
+Name = Burrow Back
+Type = GROUND
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = Contact,CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#-------------------------------
+[SNEAKUP]
+Name = Sneak Up
+Type = DARK
+Category = Physical
+Power = 50
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserStealTargetPositiveStatStages
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user get's the jump of the foe , steals the target's stat boosts, and then attacks.
+#-------------------------------
+[CHILLGALE]
+Name = Chill Gale
+Type = ICE
+Category = Special
+Power = 95
+Accuracy = 90
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove,WindMove
+EffectChance = 50
+Description = The user attacks by exhaling hot breath on the opposing team. It may also leave targets with frostbite.
+#-------------------------------
+[CAUSTICPOWDER]
+Name = Caustic Powder 
+Type = BUG
+Category = Status
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots a sinister, bluish-white flame at the target to inflict a burn.
+#-------------------------------
+[PRETTYPUNCH]
+Name = Pretty Punch
+Type = FAIRY
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 10
+Description = The target is punched with a magical fist. It may lower the targets attack.
+#-------------------------------
+[DISASAPPLE]
+Name = Disas Apple
+Type = FAIRY
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = ParalyzeBurnOrPoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or poison the target.
+#-------------------------------
+[SOULWAVE]
+Name = Soul Wave
+Type = GHOST
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDoneCurseOrAttractTarget
+Flags = CanProtect,CanMirrorMove,
+EffectChance = 30
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[PHEROFANG]
+Name = Phero Fang
+Type = POISON
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDonePoisonOrAttractTarget
+Flags = CanProtect,CanMirrorMove,Biting
+EffectChance = 90
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[THUNDERCRACK]
+Name = Thunder Crack
+Type = ELECTRIC
+Category = Physical
+Power = 80
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = ParalyzeTargetTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,Kicking
+EffectChance = 10
+Description = The user launches a charged kick with a high critical-hit ratio. It may also leave the target with paralysis.
+#-------------------------------
+[BOLTKICK]
+Name = Bolt Kick
+Type = ELECTRIC
+Category = Physical
+Power = 85
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = ParalyzeTargetTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,Kicking
+EffectChance = 10
+Description = The user launches a charged kick with a high critical-hit ratio. It may also leave the target with paralysis.
+#-------------------------------
+[CRYOKICK]
+Name = Cryo Kick
+Type = ICE
+Category = Physical
+Power = 85
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,Kicking
+EffectChance = 10
+Description = The user launches a icy kick with a high critical-hit ratio. It may also freeze the target.
+#-------------------------------
+[SWOOPDOWN]
+Name = Swoop Down
+Type = FLYING
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user drops form above at high speed making it almost invisible. It is sure to strike first.
+#-------------------------------
+[RIPPLEBLAST]
+Name = Ripple Blast
+Type = FLYING
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = RaiseUserSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user attack takes a deep breath and attacks with a wave of air from their body. It also may raise speed
+#-------------------------------
+[SOOTHEFEATHER]
+Name = Soothe Feather
+Type = FLYING
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = UserOrNearAlly
+FunctionCode = HealUserAndAlliesQuarterOfTotalHPCureStatus
+Description = The user sheds soothing feathers and showers them on the target. It heals the target and removes statuses.
+#-------------------------------
+[POWERWING]
+Name = Power Wing
+Type = FLYING
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseUserAttack1
+Flags = Contact,CanProtect,CanMirrorMove,
+EffectChance = 25
+Description = Building power in its wings the user attacks, raising the user's Attack stat.
+#-------------------------------
+[PITSHOT]
+Name = Pit Shot
+Type = ROCK
+Category = Special
+Power = 85
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 30
+Description = The user spits a stoney pit at the target. This move to leave the target seeded.
+#-------------------------------
+[GEMDRAIN]
+Name = Gem Drain
+Type = ROCK
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------#-------------------------------
+[HEADCOLD]
+Name = Head Cold
+Type = PSYCHIC
+Category = Special
+Power = 90
+Accuracy = 95
+TotalPP = 10
+Target = Other
+FunctionCode = ConfuseTargetEffectivenessIncludesIceType
+EffectChance = 100
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user projects a chilling thought into the head of the target damaging them. This move is Psychic and Ice type simultaneously.
+#-------------------------------
+[LUNARBEAM]
+Name = Lunar Beam
+Type = FAIRY
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackOneTurnInFullMoon
+Flags = CanProtect,CanMirrorMove
+Description = A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
+#-------------------------------
+[ROUGHHOUSE]
+Name = Roughhouse
+Type = FAIRY
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user wrestals with the target.
+#-------------------------------
+[MAGICRASH]
+Name = Magicrash
+Type = FAIRY
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user cloaks itself in magical power and crashes into foe. The user also takes damage.
+#-------------------------------
+[MOONYNIGHT]
+Name = Moony Night
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+FunctionCode = StartFullMoonWeather
+Description = The user calls the moon to move in fronmt of the sun for five turns, powering up Dark-type moves.
+#-------------------------------
+[GHOULHORN]
+Name = Ghoul Horn
+Type = GHOST
+Category = Physical
+Power = 100
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = RaiseUserAtkDef1IfTargetFaints
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks by sending a frightful amount of small ghosts at opposing Pokémon
+#-------------------------------
+[VIGORCLAW]
+Name = Vigor Claw
+Type = FIGHTING
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 50
+Description = The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat.
+#-------------------------------
+[SAPSLING]
+Name = Sap Sling
+Type = GRASS
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = BindTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user slings sticky sap at the target. The target is unable to switch for two to five turns.
+#-------------------------------
+[SPLISHYSPLASH]
+Name = Splishy Splash
+Type = WATER
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user charges a huge wave with electricity and hits the opposing Pokémon with the wave. This may also leave the opposing Pokémon with paralysis.
+#-------------------------------
+[ZIPPYZAP]
+Name = Zippy Zap
+Type = ELECTRIC
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 2
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,AlwaysCriticalHit
+Description = The user attacks the target with bursts of electricity at high speed. This move always goes first and results in a critical hit.
+#-------------------------------
+[BADDYBAD]
+Name = Baddy Bad
+Type = DARK
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 24
+Target = NearOther
+FunctionCode = StartWeakenPhysicalDamageAgainstUserSide
+Description = The user acts bad and attacks the target. A wondrous wall of light is put up to weaken the power of the opposing Pokémon’s physical moves.
+#-------------------------------
+[BOUNCYBUBBLE]
+Name = Bouncy Bubble
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 24
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks by shooting water bubbles at the target. It then absorbs water and restores its HP by half the damage taken by the target.
+#-------------------------------
+[BUZZYBUZZ]
+Name = Buzzy Buzz
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 24
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user shoots a jolt of electricity to attack the target. This also leaves the target with paralysis.
+#-------------------------------
+[FREEZYFROST]
+Name = Freezy Frost
+Type = ICE
+Category = Special
+Power = 80
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = ResetTargetStatStages
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks with a crystal made of cold frozen haze. It eliminates every stat change among all the Pokémon engaged in battle.
+#-------------------------------
+[GLITZYGLOW]
+Name = Glitzy Glow
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 24
+Target = NearOther
+FunctionCode = StartWeakenSpecialDamageAgainstUserSide
+Description = The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon’s special moves.
+#-------------------------------
+[SAPPYSEED]
+Name = Sappy Seed
+Type = GRASS
+Category = Physical
+Power = 80
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove,ZPower_ResetStats
+Description = The user grows a gigantic stalk that scatters seeds to attack the target. The seeds drain the target’s HP every turn.
+#-------------------------------
+[SIZZLYSLIDE]
+Name = Sizzly Slide
+Type = FIRE
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 32
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove,ZPower_ATTACK_1
+Description = The user cloaks itself in fire and charges at the target. This also leaves the target with a burn.
+#-------------------------------
+[SPARKLYSWIRL]
+Name = Sparkly Swirl
+Type = FAIRY
+Category = Special
+Power = 80
+Accuracy = 85
+TotalPP = 8
+Target = NearOther
+FunctionCode = CureUserPartyStatus
+Description = The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user’s party.
+#-------------------------------
+[SPOOKYSCARE]
+Name = Spooky Scare
+Type = GHOST
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -6
+FunctionCode = SwitchOutTargetDamagingMove
+Description = The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user’s party.
+#-------------------------------
+[PUNCHYPAW]
+Name = Punchy Paw
+Type = FIGHTING
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = EnsureNextCriticalHit
+Description = The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user’s party.
+#-------------------------------
+[DUSTYDIRT]
+Name = Dusty Dirt
+Type = GROUND
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartSandstormWeather
+Description = The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user’s party.
+#-------------------------------
+[GUSTYGALE]
+Name = Gusty Gale
+Type = FLYING
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartUserSideDoubleSpeed
+Description = This pokemon takes a deep breath and blows the target away. This move sets up a tailwind
+#-------------------------------
+[VEEVEEVOLLEY]
+Name = Veevee Volley
+Type = NORMAL
+Category = Physical
+Power = 1
+Accuracy = 0
+TotalPP = 32
+Target = NearOther
+FunctionCode = PowerHigherWithUserHappiness
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The more Eevee loves its Trainer, the greater the move’s power. It never misses.
+#-------------------------------
+[DUSTYTERRAIN]
+Name = Dusty Terrain
+Type = GROUND
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartDustyTerrain
+Description = The user turns the ground into a sandpit for five turns. Grounded Pokémon cannot switch.
+#-------------------------------
+[ICYNOISE]
+Name = Icy Noise
+Type = ICE
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 10
+Description = The target lets out a icy cry that sounds like thunder. It may also reduce the target's Sp. Def stat.
